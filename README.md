@@ -6,7 +6,7 @@
 
 1. [Installation](#Installation)
 2. [Datasets](#Datasets)
-3. [Pretrained Models](#Pretrained Models)
+3. [Models](#Models)
 4. [Script](#Script)
 5. [Results](#Results)
 
@@ -18,7 +18,7 @@ Check [`INSTALL.md`](INSTALL.md) for installation instructions.
 
 Check [`datasets/README.md`](datasets/README.md) for dataset preparation.
 
-## Pretrained Models
+## Models
 
 Check [`pretrained_ckpt/README.md`](pretrained_ckpt/README.md) for pretrained model preparation.
 
