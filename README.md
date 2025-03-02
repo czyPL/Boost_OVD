@@ -6,7 +6,7 @@
 
 1. [Installation](#Installation)
 2. [Datasets](#Datasets)
-3. [Pretrained_Models](#Pretrained Models)
+3. [Pretrained Models](#Pretrained Models)
 4. [Script](#Script)
 5. [Results](#Results)
 
