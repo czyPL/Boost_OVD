@@ -7,8 +7,9 @@
 1. [Installation](#Installation)
 2. [Datasets](#Datasets)
 3. [Models](#Models)
-4. [Script](#Script)
-5. [Results](#Results)
+4. [Method](#Method)
+5. [Script](#Script)
+6. [Results](#Results)
 
 ## Installation
 
@@ -21,6 +22,14 @@ Check [`datasets/README.md`](datasets/README.md) for dataset preparation.
 ## Models
 
 Check [`pretrained_ckpt/README.md`](pretrained_ckpt/README.md) for pretrained model preparation.
+
+## Method
+
+![Method](./images/method.png)
+
+ - **Localization Network Enhancement based on Class-Agnostic Pseudo-Labels (LNE-CAPL)** is used to solve the problem of the localization network having poor generalization ability for novel categories. 
+
+ - **Class Embedding Enhancement based on MultiModal Hybrid Knowledge (CEE-MMHK)** is used to solve the problem that poor class embedding quality affects accuracy.
 
 ## Script
 
