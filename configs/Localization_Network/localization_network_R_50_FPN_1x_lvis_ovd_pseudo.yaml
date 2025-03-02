@@ -1,0 +1,19 @@
+_BASE_: "../Base-RCNN-FPN.yaml"
+MODEL:
+  WEIGHTS: "./pretrained_ckpt/R-50.pkl"
+  MASK_ON: False
+  RESNETS:
+    DEPTH: 50
+  ROI_HEADS:
+    NUM_CLASSES: 1
+    SCORE_THRESH_TEST: 0.0001
+DATASETS:
+  TRAIN: ("lvis_v1_norare_pseudo",)
+  TEST: ()
+SOLVER:
+  STEPS: (120000, 160000)
+  MAX_ITER: 180000  # 180000 * 16 / 100000 ~ 28.8 epochs
+DATALOADER:
+  SAMPLER_TRAIN: "RepeatFactorTrainingSampler"
+  REPEAT_THRESHOLD: 0.001
+OUTPUT_DIR: "./output/localization_network_fpn_lvis_ovd_pseudo"

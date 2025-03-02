@@ -1,0 +1,12 @@
+_BASE_: "../Base-RCNN-C4.yaml"
+MODEL:
+  WEIGHTS: "detectron2://ImageNetPretrained/MSRA/R-50.pkl"
+  MASK_ON: False
+  RESNETS:
+    DEPTH: 50
+  ROI_HEADS:
+    NUM_CLASSES: 1
+DATASETS:
+  TRAIN: ("coco_2017_ovd_b_train_pseudo",)
+  TEST: ()
+OUTPUT_DIR: "./output/localization_network_c4_coco_ovd_pseudo"
