@@ -33,6 +33,8 @@ Check [`pretrained_ckpt/README.md`](pretrained_ckpt/README.md) for pretrained mo
 
 ## Script
 
+All scripts are in the `scripts/` folder.
+
 - `LNE-CAPL.sh`: This script is used to generate class-agnostic pseudo-labels and train the localization network.
 - `CEE-MMHK.sh`: This script is used to obtain multimodal class embedding that merges four external knowledge.
 - `train_transfer_learning.sh`,`test_transfer_learning.sh`,`test_zeroshot_inference.sh`:  These scripts are used to reproduce the main results of our experiments (transfer learning and zero-shot inference).
