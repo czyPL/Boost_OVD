@@ -54,7 +54,7 @@ The following two tables show the benchmarks on COCO and LVIS datasets, respecti
 
 ### LVIS Benchmark (AP)
 
-| Method                     | Backbone    | AP$_{r}$ | AP$_{c}$ | AP$_{f}$ | AP    |
+| Method                     | Backbone    | APr | APc | APf | AP    |
 |----------------------------|-------------|-----------|-----------|-----------|-------|
 | ViLD                       | RN50-FPN    | 16.7      | 26.5      | 34.2      | 27.8  |
 | VL-PLM                     | RN50-FPN    | 17.2      | 23.7      | 35.1      | 27.0  |
